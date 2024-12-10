@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .form {
+            background-color: #D47C1E;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #112875;
+            max-width: 700px;
+            margin: auto;
+            align-items: center;
+        }
+        h2 {
+            color:#112875;
+            text-align: center;
+        }
+        p {
+            margin: 15px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #f7f7f9;
+        }
+        input[type="text"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color:#112875 ;
+            color: white;
+            border: none;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"] {
+            background-color: #112875;
+        }
+        
+
+        </style>
+</head>
+<body>
+<div class="form">
+<hr>
+<h2>Add Product</h2>
+<form method="POST" action="zouki,u,d,s.php">
+    <p>
+        <label for="prod_id">PRODUCT ID </label>
+        <input type="text" name="product_id" id="prod_id">
+    </p>
+    <p>
+        <label for="prod_name">PRODUCT NAME </label>
+        <input type="text" name="product_name" id="prod_name">
+    </p>
+    <p>
+        <label for="prod_category">PRODUCT CATEGORY</label>
+        <input type="text" name="product_category" id="prod_category">
+    </p>
+    <p>
+        <label for="prod_price">PRODUCT PRICE</label>
+        <input type="text" name="product_price" id="prod_price">
+    </p>
+    <p>
+        <label for="prod_quantity">PRODUCT QUANTITY</label>
+        <input type="text" name="product_quantity" id="prod_quantity">
+    </p>
+    <p>
+        <input type="hidden" name="action" value="insert">
+        <input type="submit" name="insert" id="insert" value="insert">
+    </p>
+</form>
+<hr>
+
+
+<h2>Update Product</h2>
+<form method="POST" action="zouki,u,d,s.php">
+    <p>
+        <label for="prod_id">PRODUCT ID </label>
+        <input type="text" name="product_id" id="prod_id">
+    </p>
+    <p>
+        <label for="prod_name">NEW PRODUCT NAME </label>
+        <input type="text" name="product_name" id="prod_name">
+    </p>
+    <p>
+        <label for="prod_category">NEW PRODUCT CATEGORY</label>
+        <input type="text" name="product_category" id="prod_category">
+    </p>
+    <p>
+        <label for="prod_price">NEW PRODUCT PRICE</label>
+        <input type="text" name="product_price" id="prod_price">
+    </p>
+    <p>
+        <label for="prod_quantity">NEW PRODUCT QUANTITY</label>
+        <input type="text" name="product_quantity" id="prod_quantity">
+    </p>
+    <p>
+        <input type="hidden" name="action" value="update">
+        <input type="submit" name="update" id="update" value="Update">
+    </p>
+</form>
+<hr>
+
+<h2>Delete Product</h2>
+<form method="POST" action="zouki,u,d,s.php">
+    <p>
+        <label for="prod_id">PRODUCT ID </label>
+        <input type="text" name="product_id" id="prod_id">
+    </p>
+    <p>
+        <input type="hidden" name="action" value="delete">
+        <input type="submit" name="delete" id="delete" value="Delete">
+    </p>
+</form>
+
+</div>
+</body>
+</html>

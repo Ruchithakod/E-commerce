@@ -1,0 +1,77 @@
+body
+{
+background-color:#D6D8F7;
+}
+ 
+       .navbar {
+            background-color:#112875;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color:#D6D8F7 ;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration:none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        footer {
+            background-color:#112875;
+            color:#D6D8F7; 
+            padding: 20px; 
+            text-align: center;
+            font-size: large;
+        }
+        
+        .newsletter h3 {
+            margin-bottom: 10px; /* Space below the heading */
+            color: #ff6600; /* Heading color */
+            font-size: 24px; /* Larger font size */
+        }
+        
+        .newsletter p {
+            margin-bottom: 15px; /* Space below the paragraph */
+            color: #fff; /* Text color */
+            font-size: 16px; /* Font size */
+        }
+        
+        .form-group {
+            display: flex; /* Align items horizontally */
+            justify-content: center; /* Center the form elements */
+            align-items: center; /* Vertically align items */
+        }
+        
+        .newsletter input[type="email"] {
+            padding: 10px; /* Padding for the input field */
+            border: none; /* Remove border */
+            border-radius: 5px 0 0 5px; /* Rounded corners */
+            width: 250px; /* Fixed width for the input */
+            font-size: 16px; /* Font size */
+        }
+        
+        .newsletter button {
+            padding: 10px 15px;
+            border-radius: 0 5px 5px 0; /* Rounded corners */
+            background-color: #ff6600; /* Button color */
+            color:#D6D8F7; /* Text color */
+            cursor: pointer; /* Pointer on hover */
+            font-size: 16px; /* Font size */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        
+        .newsletter button:hover {
+            background-color:#D6D8F7; /* Darker color on hover */
+        }
+        
+        
+
+
+
+
+

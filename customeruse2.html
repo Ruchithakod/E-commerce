@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+        <link rel="stylesheet" href="stylesheet1.css">
+        <title>Home Page</title>
+        <style>
+         hr {
+                    border: none; 
+                    height: 4px; 
+                    background-color:#D47C1E ; 
+                    width: 70%;
+                    margin: 20px auto;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                }
+                form {
+    background-color:#D47C1E;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email1"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #112875;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:#D6D8F7;
+}
+
+p {
+    text-align: center;
+    color: #333;
+}
+
+p a {
+    color: #D47C1E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+h2 {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #112875;
+}
+        </style>
+        </head>
+        <body>
+        <div class="navbar">
+        <a href="customeruse2.html">Customer Use</a>
+        <a href="about2.html">About</a>
+        <a href="foot2.html">Footwears</a>
+        <a href="bags2.html">Bags</a>
+        <a href="collection2.html">Collection</a>
+        <a href="zoukweb2.html">Home</a>
+        </div>
+        <center>
+            <br>
+            <h1 style="color:#112875; font-size:larger; font-size: 65px; margin: 0; padding: 0;">Customer Use</h1>
+            <hr/ style="background-color:#D47C1E;width:70%; height:4px; ">
+            <br>
+            </center>
+</head>
+<body>
+    <center><h2>Register</h2></center>
+    <form action="register_process.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email1" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.php">Login here</a></p>
+</body>
+</html>
+<body>
+    <footer>
+        <div class="newsletter">
+            <h3 style="font-size: 25px;">Newsletter</h3>
+            <p style="font-size: 20px;">Subscribe to receive updates, access to exclusive deals, and more.</p>
+            <form style="padding: 0;" action="subscribe.php" method="post">
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+        </div>    
+            </footer>
+    </body>

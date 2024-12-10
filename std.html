@@ -1,0 +1,69 @@
+<html>
+<head>
+</head>
+<body>
+<div class="form">
+
+<!-- Insert Form -->
+<h2>Add Student Record</h2>
+<form method="POST" action="insert.php">
+    <p>
+        <label for="std_reg_no">STUDENT REGISTER NUMBER </label>
+        <input type="text" name="std_reg_no" id="std_reg_no">
+    </p>
+    <p>
+        <label for="std_name">STUDENT NAME </label>
+        <input type="text" name="std_name" id="std_name">
+    </p>
+    <p>
+        <label for="std_course">STUDENT COURSE</label>
+        <input type="text" name="std_course" id="std_course">
+    </p>
+    <p>
+        <label for="std_marks">STUDENT MARKS</label>
+        <input type="text" name="std_marks" id="std_marks">
+    </p>
+    <p>
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </p>
+</form>
+
+<!-- Update Form -->
+<h2>Update Student Record</h2>
+<form method="POST" action="insert.php">
+    <p>
+        <label for="std_reg_no">STUDENT REGISTER NUMBER </label>
+        <input type="text" name="std_reg_no" id="std_reg_no">
+    </p>
+    <p>
+        <label for="std_name">NEW STUDENT NAME </label>
+        <input type="text" name="std_name" id="std_name">
+    </p>
+    <p>
+        <label for="std_course">NEW STUDENT COURSE</label>
+        <input type="text" name="std_course" id="std_course">
+    </p>
+    <p>
+        <label for="std_marks">NEW STUDENT MARKS</label>
+        <input type="text" name="std_marks" id="std_marks">
+    </p>
+    <p>
+        <input type="submit" name="update" id="update" value="Update">
+    </p>
+</form>
+
+<!-- Delete Form -->
+<h2>Delete Student Record</h2>
+<form method="POST" action="insert.php">
+    <p>
+        <label for="std_reg_no">STUDENT REGISTER NUMBER </label>
+        <input type="text" name="std_reg_no" id="std_reg_no">
+    </p>
+    <p>
+        <input type="submit" name="delete" id="delete" value="Delete">
+    </p>
+</form>
+
+</div>
+</body>
+</html>
